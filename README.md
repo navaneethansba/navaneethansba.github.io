@@ -1,94 +1,44 @@
 # Dr. Navaneethan Srinivasan — Executive Technology Portfolio
 
-A recruiter- and board-friendly executive portfolio site built as a lightweight static GitHub Pages repository.
+Premium GitHub Pages portfolio for CIO / CDIO / CTO / GCC / Enterprise Architecture / Board leadership positioning.
 
-## Positioning
+## Publish
 
-**CIO · CDIO · CTO · GCC Leader · Enterprise Architect · Board Advisor**
+Use this repository as the contents of:
 
-**Build. Scale. Transform. Govern.**
+`https://github.com/navaneethansba/navaneethansba.github.io`
 
-The site highlights executive impact across GCC build-out, enterprise architecture, global technology operations, M&A integration, cloud, cybersecurity, AI, quantum computing and board advisory.
+GitHub Pages settings:
 
-## Included
+- Source: Deploy from a branch
+- Branch: `main`
+- Folder: `/(root)`
 
-- Responsive one-page executive portfolio
-- Professional headshot included in `assets/images/`
-- Résumé included in `assets/documents/`
-- Animated career-impact metrics
-- Executive capability map
-- Custom HTML5 Canvas leadership radar (no third-party library)
-- Signature transformation case studies
-- Research / AI / quantum section
-- Career timeline
-- Board & advisory section
-- Mobile navigation and accessibility support
-- No framework, no build step, no external dependency
+The live site will be:
 
-## Repository structure
+`https://navaneethansba.github.io/`
 
-```text
-.
-├── index.html
-├── README.md
-├── .nojekyll
-└── assets/
-    ├── css/
-    │   └── main.css
-    ├── js/
-    │   └── main.js
-    ├── images/
-    │   └── navaneethan-headshot.png
-    └── documents/
-        └── Navaneethan-Srinivasan-Resume.pdf
-```
+## Version 2 enhancements
 
-## Publish with GitHub Pages
+- Premium executive hero treatment
+- Stronger leadership metrics and transformation cards
+- Sticky active navigation and reading progress bar
+- Improved responsive/mobile presentation
+- Executive technology radar visualization
+- Social sharing / Open Graph image
+- Favicon and canonical SEO metadata
+- Recruiter-friendly case-study layout
+- Optional executive introduction video section
 
-### Option A — User site (cleanest URL)
+## Add the 75–90 second introduction video
 
-1. Create a repository named exactly:
-   `YOUR-GITHUB-USERNAME.github.io`
-2. Upload all files in this repository to the root of that GitHub repository.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose `main` and `/ (root)`.
-6. Save.
-7. GitHub will publish the site at:
-   `https://YOUR-GITHUB-USERNAME.github.io/`
+1. Record/export an MP4 in H.264/AAC.
+2. Name it exactly `executive-introduction.mp4`.
+3. Place it in `assets/video/`.
+4. Commit to GitHub.
 
-### Option B — Project site
+The site detects the MP4 automatically. Until it exists, the video section remains hidden.
 
-1. Create a repository such as `executive-portfolio`.
-2. Upload these files to the repository root.
-3. Enable GitHub Pages from the `main` branch and `/ (root)`.
-4. The site will be available at:
-   `https://YOUR-GITHUB-USERNAME.github.io/executive-portfolio/`
+A suggested speaking script is included at:
 
-All internal asset links are relative, so the same repository works in either mode.
-
-## Local preview
-
-You can open `index.html` directly, or run a tiny local web server:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
-
-## Updating content
-
-- Main content: `index.html`
-- Styling: `assets/css/main.css`
-- Interaction / counters / radar: `assets/js/main.js`
-- Headshot: replace `assets/images/navaneethan-headshot.png` with a new image using the same filename
-- Resume: replace `assets/documents/Navaneethan-Srinivasan-Resume.pdf` using the same filename
-
-## Privacy note
-
-The portfolio intentionally keeps the current defence-technology employer unnamed and describes the work at a capability/outcome level. Review all content before publishing to ensure it complies with contractual, NDA, customer and security obligations.
-
-## License
-
-Portfolio content and personal materials © Dr. Navaneethan Srinivasan. Code may be adapted for personal use by the portfolio owner.
+`assets/video/EXECUTIVE-INTRO-SCRIPT.txt`
